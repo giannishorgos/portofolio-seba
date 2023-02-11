@@ -1,0 +1,10 @@
+.menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-icons {
+    margin: 10px;
+}

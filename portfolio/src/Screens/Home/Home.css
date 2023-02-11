@@ -15,7 +15,12 @@
 }
 
 h1 {
+    margin: 0;
     font-size: 37pt;
+}
+
+h3 {
+    margin-top: 0;
 }
 
 h3 {
