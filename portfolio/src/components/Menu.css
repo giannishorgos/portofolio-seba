@@ -1,0 +1,16 @@
+.menu_container {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: large;
+}
+
+.menu-button {
+    background-color: whitesmoke;
+    margin: 0 5px;
+    padding: 5px 2px;
+}
