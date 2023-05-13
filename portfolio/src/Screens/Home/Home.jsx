@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import me from '../../assets/me.png'
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
                 <h1>Hi, I'm Ioannis Horgos.</h1>
                 <h3>Software developer. Biker. Gym Rat.</h3>
             </div>
-            <div className='profile'> image</div>
+            <div className='profile'><img src={me}></img></div>
         </div>
     );
 };

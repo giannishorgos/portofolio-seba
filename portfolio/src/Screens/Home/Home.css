@@ -23,3 +23,9 @@ h1 {
 h3 {
     text-align: center;
 }
+
+img {
+    width: 35%;
+    position: relative;
+    right:80px;
+}
