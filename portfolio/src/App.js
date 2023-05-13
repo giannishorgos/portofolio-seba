@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Screens/Home/Home';
-import Menu from './components/Menu';
 
+import "./App.css";
+import Home from "./Screens/Home/Home";
+import Menu from "./components/Menu/Menu";
 
 function App() {
     return (
-        <div className='App'>
-            
+        <div className="App">
             <Home />
             <Menu />
         </div>
