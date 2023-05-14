@@ -2,12 +2,16 @@
 import "./App.css";
 import Home from "./Screens/Home/Home";
 import Menu from "./components/Menu/Menu";
+import Logo from "./components/Logo/Logo";
+import Projects from "./Screens/ProjectsScreen/Projects";
 
 function App() {
     return (
         <div className="App">
-            <Home />
-            <Menu />
+            {/* <Logo /> */}
+            {/* <Home /> */}
+            <Projects />
+            {/* <Menu /> */}
         </div>
     );
 }

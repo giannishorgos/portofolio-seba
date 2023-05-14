@@ -1,0 +1,17 @@
+.button-container {
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 0.2rem;
+    transition: 0.3s;
+    color: black;
+    margin-right: 20px;
+
+}
+
+/* .button-container:hover {
+    box-shadow: -5px -5px 20px black, 5px 5px 20px grey;
+    border: 0px;
+
+
+
+} */

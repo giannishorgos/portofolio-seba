@@ -1,0 +1,38 @@
+.proj-entry-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.proj-text {
+    width: 100%;
+    /* flex: 1 1 0; */
+}
+
+.proj-image {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    /* flex: 1 1 0; */
+}
+
+.proj-image img {
+    width: 50%;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: 10px 10px 40px #121312, -10px -10px 40px #121312;
+    overflow: hidden;
+}
+
+.proj-lang-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}

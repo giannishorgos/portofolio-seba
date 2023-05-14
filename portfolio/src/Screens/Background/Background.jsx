@@ -22,8 +22,8 @@ const Background = () => {
     return (
         <div className='bg-container'>
             <div className='circles-container'>
-                <div className='circle purple' style={{top: mousePos.y / 50, left: 100 + mousePos.x / 60}}></div>
-                <div className='circle green' style={{top: mousePos.y / 90, left: mousePos.x / 130}}></div>
+                <div className='circle purple' style={{top: mousePos.y / 10, left: 100 + mousePos.x / 60}}></div>
+                <div className='circle green' style={{top: -mousePos.y / 20, left: -mousePos.x / 130}}></div>
             </div>
         </div>
     )

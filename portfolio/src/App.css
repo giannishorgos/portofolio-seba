@@ -6,6 +6,13 @@
     top: 0;
     left: 0;
     background-image: url(assets/nnnoise.svg);
+    background-size: auto;
     backdrop-filter: blur(100px);
-
+    
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    
+    /* overflow: hidden; */
 }

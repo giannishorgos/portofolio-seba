@@ -1,0 +1,15 @@
+.projects{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    /* background-image: url('../../assets/users\ metrics.png'); */
+    /* opacity: 0.05; */
+    /* overflow: hidden; */
+    
+}
+
