@@ -1,13 +1,19 @@
-import React from "react";
-import "./Menu.css";
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import './Menu.css';
 
-const Menu = () => {
-    const menus = ["HOME", "ABOUT", "EXPERIENCE"];
+const Menu = ({text='Ioannis.', path='/'}) => {
     return (
-        <div className="menu">
-            {menus.map((entry) => (
-                <div className="menu-icons">{}entry</div>
-            ))}
+        <div className='menu'>
+
+                <h2 className='menu-icons'>
+                    <Link
+                        to={path}
+                        style={{ textDecoration: 'none', color: 'white' }}>
+                        {text}
+                    </Link>
+                </h2>
+
         </div>
     );
 };
