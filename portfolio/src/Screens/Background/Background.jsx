@@ -3,7 +3,7 @@ import './Background.css'
 
 const Background = () => {
     const [mousePos, setMousePos] = useState({x: 0, y: 0});
-    console.log(mousePos)
+    // console.log(mousePos)
 
     useEffect(() => {
         const handleMouseMove = (event) => {

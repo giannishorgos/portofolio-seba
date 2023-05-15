@@ -25,10 +25,10 @@
 }
 
 .proj-image img {
-    width: 50%;
+    /* width: 80%; */
     border-radius: 1rem;
     position: relative;
-    box-shadow: 10px 10px 40px #121312, -10px -10px 40px #121312;
+    /* box-shadow: 10px 10px 40px #121312, -10px -10px 40px #121312; */
     overflow: hidden;
 }
 

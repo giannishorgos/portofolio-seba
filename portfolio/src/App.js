@@ -4,13 +4,17 @@ import Home from "./Screens/Home/Home";
 import Menu from "./components/Menu/Menu";
 import Logo from "./components/Logo/Logo";
 import Projects from "./Screens/ProjectsScreen/Projects";
+import { Route, Router, Routes } from 'react-router-dom';
+
 
 function App() {
     return (
         <div className="App">
             {/* <Logo /> */}
-            {/* <Home /> */}
-            <Projects />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/projects" element={<Projects />} />
+            </Routes>
             {/* <Menu /> */}
         </div>
     );
