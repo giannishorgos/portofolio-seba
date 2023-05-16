@@ -6,6 +6,7 @@ import { FaPython } from 'react-icons/fa';
 import { FaReact } from 'react-icons/fa';
 import { SiMysql } from 'react-icons/si';
 import { DiDjango } from 'react-icons/di';
+import {BsGlobe, BsGlobe2} from 'react-icons/bs'
 
 const ProjectEntry = ({
     header = 'LabBro.gr',
@@ -14,8 +15,10 @@ const ProjectEntry = ({
     project_image = labbro,
     shadow = true,
     width = '50%',
+    url='https://labbro.gr/'
 }) => {
     const [showPopup, setShowPopup] = useState(false);
+    const [visitText, setVisitText] = useState(false)
 
     const handleImageClick = () => {
         setShowPopup((prev) => !prev);
@@ -25,12 +28,9 @@ const ProjectEntry = ({
         <>
             <div className='proj-entry-container'>
                 <div className='proj-text'>
-                    <h1>{header.toUpperCase()}</h1>
+                    <div className='proj-header'><h1>{header.toUpperCase()} </h1><div className='proj-visit'><a href={url} target="_blank"><BsGlobe className='icon' style={{color: '#121312', fontSize: '16pt'}} /><span className='visit-text'>VISIT SITE</span></a></div></div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Itaque nemo a dolor incidunt impedit consequatur amet
-                        assumenda, ab quo soluta excepturi nisi dolore, corrupti
-                        culpa neque doloremque necessitatibus unde officiis?
+                        {desc}
                     </p>
                     <div className='proj-lang-icons'>
                         {icons.map((icon) => icon)}

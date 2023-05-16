@@ -7,13 +7,15 @@ import orana from '../../assets/orana.png'
 import vroom from '../../assets/car.png'
 import Logo from '../../components/Logo/Logo';
 import ProjectEntry from '../../components/ProjectEntry/ProjectEntry';
-import { SiMysql } from 'react-icons/si';
 import { FaPython, FaReact } from 'react-icons/fa';
 import { DiDjango } from 'react-icons/di';
 import { GoChevronUp } from 'react-icons/go'
-import {SiAngular, SiDocker, SiNginx, SiCss3} from 'react-icons/si'
+import {SiAngular, SiDocker, SiNginx, SiCss3, SiOpencv, SiMysql, SiLinux} from 'react-icons/si'
 import {BsUbuntu} from 'react-icons/bs'
-import {AiOutlineHtml5} from 'react-icons/ai'
+import {AiOutlineHtml5 , AiOutlineGitlab} from 'react-icons/ai'
+// import { IoLogoGitlab } from 'react-icons/io'
+import { VscAzureDevops } from 'react-icons/vsc'
+
 import Menu from '../../components/Menu/Menu';
 
 
@@ -63,6 +65,13 @@ const Projects = () => {
             }}
         />,
         <SiNginx
+            style={{
+                fontSize: '28pt',
+                color: '#14EB97',
+                marginRight: '35px',
+            }}
+        />,
+        <VscAzureDevops
             style={{
                 fontSize: '28pt',
                 color: '#14EB97',
@@ -126,6 +135,37 @@ const Projects = () => {
         />
         ];
 
+    const vroom_icons = [
+        <FaPython
+            style={{
+                fontSize: '28pt',
+                color: '#14EB97',
+                marginRight: '35px',
+            }}
+        />,
+        <SiOpencv
+            style={{
+                fontSize: '28pt',
+                color: '#14EB97',
+                marginRight: '35px',
+            }}
+        />,
+        <SiLinux
+            style={{
+                fontSize: '28pt',
+                color: '#14EB97',
+                marginRight: '35px',
+            }}
+        />,
+        <AiOutlineGitlab
+            style={{
+                fontSize: '28pt',
+                color: '#14EB97',
+                marginRight: '35px',
+            }}
+        />,
+    ]
+
 
     const [activeProject, setActiveProject] = useState({active1: true, active2: false, active3: false, active4: false})
     const changeActiveProj = ({id}) => {
@@ -151,6 +191,8 @@ const Projects = () => {
             )
     }
 
+    const labbro_desc = "LabBro is a comprehensive portal for our lab's check-in/out system. It serves as a centralized platform that collects and analyzes statistics for lab members and the overall lab operations. With interactive graphs and visualizations, LabBro provides insights into member activities, lab occupancy, and usage patterns. The portal also offers engaging minigames and a unique virtual currency system, rewarding members based on their lab engagement. Below, you can see the programming languages and technologies I utilized to bring this innovative project to life."
+    const emf_desc = "The EMF Suite is a full-stack web application designed for managing Narda EMF stations and monitoring electromagnetic fields. With its comprehensive functionality, the suite enables administrators to efficiently add, remove, and relocate stations while customizing the portal's settings. The portal provides detailed statistics presented through interactive graphs, allowing users to gain valuable insights into the monitored electromagnetic field data. Each station has its own dedicated page, offering in-depth information and analysis. The EMF Suite combines user-friendly administrative interfaces with informative visualizations, empowering organizations to effectively monitor and manage electromagnetic fields. Below, you can see the programming languages and technologies employed to develop this feature-rich application."
     return (
         <div className='projects'>
             <Logo text='projects.' />
@@ -164,10 +206,10 @@ const Projects = () => {
 
             </div>
             <div className='proj-list'>
-                {activeProject.active1 && <ProjectEntry icons={labbro_icons} /> }
-                {activeProject.active2 && <ProjectEntry shadow={false} icons={emf_icons} header='EMF Suite' project_image={emf} width='90%' /> }
-                {activeProject.active3 && <ProjectEntry  icons={orana_icons} header='Orana.gr' project_image={orana} width='60%' /> }
-                {activeProject.active4 && <ProjectEntry  icons={orana_icons} header='Vroom Car' project_image={vroom} width='60%' /> }
+                {activeProject.active1 && <ProjectEntry url='https://labbro.gr/' icons={labbro_icons} desc={labbro_desc}/> }
+                {activeProject.active2 && <ProjectEntry url='https://emf.arcep.tg/home' shadow={false} icons={emf_icons} header='EMF Suite' project_image={emf} width='90%' desc={emf_desc} /> }
+                {activeProject.active3 && <ProjectEntry url='https://orana.gr/' icons={orana_icons} header='Orana.gr' project_image={orana} width='60%' /> }
+                {activeProject.active4 && <ProjectEntry url='https://vroom.web.auth.gr/' icons={vroom_icons} header='Vroom Car' project_image={vroom} width='60%' /> }
 
 
             </div>
