@@ -7,6 +7,8 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
+    animation-name: fade;
+    animation-duration: 1s;
     /* overflow: hidden; */
     
 }

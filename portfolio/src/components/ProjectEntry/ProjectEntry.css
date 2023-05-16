@@ -6,6 +6,8 @@
     height: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 
 .proj-text {
@@ -29,6 +31,8 @@
     position: relative;
     /* box-shadow: 10px 10px 40px #121312, -10px -10px 40px #121312; */
     overflow: hidden;
+    cursor:pointer;
+
 }
 
 .proj-lang-icons {

@@ -3,12 +3,15 @@ import './Home.css';
 import me from '../../assets/me.png'
 import Logo from '../../components/Logo/Logo';
 import HomeButtons from '../../components/Home Buttons/HomeButtons';
-import { unstable_HistoryRouter, useHistory, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Menu from '../../components/Menu/Menu';
 
 
 const Home = () => {
     const navigate = useNavigate();
+    const location = useLocation();
+    console.log(location)
+    console.log(location.pathname)
 
     const redirectToProjectsScreen = () => {
         console.log('hety')
