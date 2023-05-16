@@ -193,6 +193,8 @@ const Projects = () => {
 
     const labbro_desc = "LabBro is a comprehensive portal for our lab's check-in/out system. It serves as a centralized platform that collects and analyzes statistics for lab members and the overall lab operations. With interactive graphs and visualizations, LabBro provides insights into member activities, lab occupancy, and usage patterns. The portal also offers engaging minigames and a unique virtual currency system, rewarding members based on their lab engagement. Below, you can see the programming languages and technologies I utilized to bring this innovative project to life."
     const emf_desc = "The EMF Suite is a full-stack web application designed for managing Narda EMF stations and monitoring electromagnetic fields. With its comprehensive functionality, the suite enables administrators to efficiently add, remove, and relocate stations while customizing the portal's settings. The portal provides detailed statistics presented through interactive graphs, allowing users to gain valuable insights into the monitored electromagnetic field data. Each station has its own dedicated page, offering in-depth information and analysis. The EMF Suite combines user-friendly administrative interfaces with informative visualizations, empowering organizations to effectively monitor and manage electromagnetic fields. Below, you can see the programming languages and technologies employed to develop this feature-rich application."
+    const orana_desc = "Our startup company, Orana, was founded last summer by myself and my colleague-friend. We specialize in developing websites for our clients. Our own journey in building our company's website has been a valuable learning experience. As we managed and organized everything ourselves, we had the freedom to unleash our creativity and explore new possibilities. We gained a wealth of experience, facing various challenges along the way. Our commitment to delivering innovative and imaginative solutions is driven by our passion for web development. We're dedicated to providing high-quality websites to meet our clients' needs. Technologies used:"
+    const vroom_desc = "Team VROOM is based in the Department of Electrical and Computer Engineering of the Aristotle University of Thessaloniki in Greece. Is focused on developing autonomous driving solutions for scaled vehicles. Currently, we are participating -for the third time in a row- in the Bosch Future Mobility Challenge organized by the Bosch Engineering Center in Cluj Napoca, Romania. Our ultimate aim is the promotion of research on autonomous driving in academia."
     return (
         <div className='projects'>
             <Logo text='projects.' />
@@ -208,8 +210,8 @@ const Projects = () => {
             <div className='proj-list'>
                 {activeProject.active1 && <ProjectEntry url='https://labbro.gr/' icons={labbro_icons} desc={labbro_desc}/> }
                 {activeProject.active2 && <ProjectEntry url='https://emf.arcep.tg/home' shadow={false} icons={emf_icons} header='EMF Suite' project_image={emf} width='90%' desc={emf_desc} /> }
-                {activeProject.active3 && <ProjectEntry url='https://orana.gr/' icons={orana_icons} header='Orana.gr' project_image={orana} width='60%' /> }
-                {activeProject.active4 && <ProjectEntry url='https://vroom.web.auth.gr/' icons={vroom_icons} header='Vroom Car' project_image={vroom} width='60%' /> }
+                {activeProject.active3 && <ProjectEntry url='https://orana.gr/' icons={orana_icons} header='Orana.gr' project_image={orana} width='60%' desc={orana_desc} /> }
+                {activeProject.active4 && <ProjectEntry url='https://vroom.web.auth.gr/' icons={vroom_icons} header='Vroom Car' project_image={vroom} width='60%' desc={vroom_desc} /> }
 
 
             </div>
