@@ -13,3 +13,22 @@
     font-size: 22pt;
 
 }
+
+.menu-icons span a {
+    text-decoration: none;
+    color: white;
+    color: #14EB97;
+    margin-right: 20px;
+    font-size: 14pt;
+    transition: 0.5s ease-out;
+}
+
+.menu-icons a:hover {
+
+    color: white;
+
+}
+
+.menu-icons span {
+    margin-left: 30px;
+}

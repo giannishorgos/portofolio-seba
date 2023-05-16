@@ -11,8 +11,8 @@ const HomeButtons = ({primary=true, text="projects", bg_color="#14EB97", onClick
     }
     return (
         <div onClick={primary ? onClick : () => console.log('download...')} className='button-container' style={button_style}>
-            { !primary && (<a href="../../assets/ioannis_horgos_cv.pdf" download><TbDownload style={{margin: '-10px 17px 0 0'}} />  {text.toUpperCase()} </a>) }
-            { primary && (text.toUpperCase())}
+            { !primary && (<a href="files/ioannis_horgos_cv.pdf" download><TbDownload style={{margin: '-10px 17px 0 0'}} />  {text.toUpperCase()} </a>) }
+            { primary && (<span>{text.toUpperCase()}</span>)}
             </div>
     )
 }
