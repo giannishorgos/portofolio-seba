@@ -11,6 +11,7 @@
 .menu-icons {
     margin-right: 20px;
     font-size: 22pt;
+    display: flex;
 
 }
 
@@ -23,7 +24,7 @@
     transition: 0.5s ease-out;
 }
 
-.menu-icons a:hover {
+.menu-icons span a:hover {
 
     color: white;
 
@@ -31,4 +32,14 @@
 
 .menu-icons span {
     margin-left: 30px;
+}
+
+@media (max-width: 572px) {
+    .menu-icons {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .menu-icons a {
+        text-align: center;
+    }
 }

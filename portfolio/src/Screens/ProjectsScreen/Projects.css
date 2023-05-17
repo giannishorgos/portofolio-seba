@@ -46,6 +46,7 @@
     margin-right: 30px;
     position: absolute;
     left: 50px;
+    font-size: 24pt;
 }
 
 .outer {
@@ -95,3 +96,11 @@
     transform: rotate(90deg);
     color:  #14EB97;
 } */
+
+
+@media (max-width: 860px) {
+    .proj-bullets {
+        left: 10px;
+        font-size: 18pt;
+    }
+}
