@@ -38,3 +38,18 @@
     
 
 }
+
+@media (max-width: 950px) {
+    .circles-container {
+        left: 0%;
+    }
+
+    .purple {
+        width: 300px;
+        height: 300px;
+    }
+    .green {
+        width: 250px;
+        height: 250px;
+    }
+}
