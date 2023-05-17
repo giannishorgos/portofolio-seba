@@ -42,6 +42,7 @@
 @media (max-width: 950px) {
     .circles-container {
         left: 0%;
+        top: 13%;
     }
 
     .purple {

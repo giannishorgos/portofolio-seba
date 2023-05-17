@@ -134,4 +134,13 @@
     .proj-lang-icons {
         flex-wrap: wrap;
     }
+
+    .proj-image {
+        padding: 30px 0;
+        height: 100%;
+    }
+
+    .proj-visit:hover {
+        width: 30px;
+    }
   }
