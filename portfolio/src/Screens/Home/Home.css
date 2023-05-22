@@ -58,3 +58,16 @@ h3 {
         justify-content: center;
     }
   }
+
+@media (max-width: 600px) {
+    .profile {
+        display: none;
+    }
+
+    .welcome-text {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -17,7 +17,8 @@
 
 .arrow-active {
     animation-name: arrow;
-    animation-duration: 0.5s;
+    animation-duration: 0.4s;
+    color: #14EB97;
 }
 
 @keyframes arrow {
@@ -83,6 +84,14 @@
     background-color: #14EB97;
 }
 
+.arrow {
+    cursor: pointer;
+}
+
+.arrow:hover {
+    color: #14EB97 !important;
+}
+
 /* .arrow {
     font-size: 18pt;
     margin: 5px;
@@ -102,6 +111,10 @@
     .proj-bullets {
         left: 10px;
         font-size: 18pt;
+    }
+
+    .proj-list {
+        height: 100%;
     }
 }
 

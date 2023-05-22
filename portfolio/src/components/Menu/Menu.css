@@ -33,7 +33,12 @@
 .menu-icons span {
     margin-left: 30px;
 }
-
+.other-menu {
+    transition: 0.1s ease-in
+}
+.other-menu:hover {
+    color: #14EB97 !important;
+}
 @media (max-width: 572px) {
     .menu-icons {
         flex-direction: column;

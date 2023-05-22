@@ -187,7 +187,7 @@ const Projects = () => {
 
     const Bullet = ({active=false, onClick}) => {
         return (
-            <GoChevronUp onClick={onClick} className={active ? 'arrow-active' : ''} style={{margin: '5px', color: active ? '#14EB97' : 'white', transform: '0.3s ease-in-out', transform: active ? 'rotate(90deg)' : 'rotate(0)'}} />
+            <GoChevronUp onClick={onClick} className={active ? 'arrow-active' : 'arrow'} style={{margin: '5px', color: active ? '#14EB97' : 'white', transition: '0.1s', transform: active ? 'rotate(90deg)' : 'rotate(0)'}} />
             )
     }
 

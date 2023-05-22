@@ -32,6 +32,7 @@ const Menu = ({text='Ioannis.', path='/'}) => {
                 <h2 className='menu-icons'>
                     <Link
                         to={path}
+                        className='other-menu'
                         style={{ textDecoration: 'none', color: 'white' }}>
                         {text}             
                     </Link>
