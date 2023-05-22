@@ -39,12 +39,17 @@
 .other-menu:hover {
     color: #14EB97 !important;
 }
-@media (max-width: 572px) {
+@media (max-width: 660px) {
     .menu-icons {
         flex-direction: column;
         margin-right: 0;
+        font-size: 15pt;
+        align-items: flex-end;
     }
     .menu-icons a {
         text-align: center;
+    }
+    .sc-icons {
+        font-size: 10pt;
     }
 }

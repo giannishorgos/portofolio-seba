@@ -5,4 +5,11 @@
     font-weight: bolder;
     color: white;
     font-size: 22pt;
+
+}
+
+@media (max-width: 660px) {
+.logo {
+    font-size: 15pt;
+}
 }

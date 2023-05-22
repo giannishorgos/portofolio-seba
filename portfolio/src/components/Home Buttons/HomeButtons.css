@@ -17,6 +17,11 @@
     color: inherit;
 }
 
+@media (max-width: 660px) {
+    .button-container {
+        font-size: 9pt;
+    }
+}
 
 
 /* .button-container:hover {

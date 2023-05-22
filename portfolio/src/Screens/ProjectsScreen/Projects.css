@@ -116,5 +116,9 @@
     .proj-list {
         height: 100%;
     }
+
+    .pr-lang-icons {
+        font-size: 25pt !important;
+    }
 }
 

@@ -28,6 +28,8 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+
+            className='pr-lang-icons'
         />,
         <DiDjango
             style={{
@@ -35,6 +37,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <SiAngular
             style={{
@@ -42,6 +45,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <SiMysql
             style={{
@@ -49,6 +53,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <BsUbuntu
             style={{
@@ -56,6 +61,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <SiDocker
             style={{
@@ -63,6 +69,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <SiNginx
             style={{
@@ -70,6 +77,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <VscAzureDevops
             style={{
@@ -77,6 +85,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
     ];
 
@@ -87,6 +96,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <DiDjango
             style={{
@@ -94,6 +104,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <FaReact
             style={{
@@ -101,6 +112,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <SiMysql
             style={{
@@ -108,6 +120,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
     ];
 
@@ -118,6 +131,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <AiOutlineHtml5
             style={{
@@ -125,6 +139,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <SiCss3
             style={{
@@ -132,6 +147,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />
         ];
 
@@ -142,6 +158,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <SiOpencv
             style={{
@@ -149,6 +166,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <SiLinux
             style={{
@@ -156,6 +174,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
         <AiOutlineGitlab
             style={{
@@ -163,6 +182,7 @@ const Projects = () => {
                 color: '#14EB97',
                 marginRight: '35px',
             }}
+            className='pr-lang-icons'
         />,
     ]
 

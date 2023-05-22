@@ -133,6 +133,7 @@
 
     .proj-lang-icons {
         flex-wrap: wrap;
+        font-size: 8pt !important;
     }
 
     .proj-image {
@@ -143,4 +144,13 @@
     .proj-visit:hover {
         width: 30px;
     }
+  }
+
+  @media (max-width: 660px) {
+    .proj-entry-container {
+        justify-content: flex-start;
+        margin-bottom: 50px;
+        align-items: flex-end;
+    }
+    
   }

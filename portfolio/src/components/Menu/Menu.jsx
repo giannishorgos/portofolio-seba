@@ -38,16 +38,16 @@ const Menu = ({text='Ioannis.', path='/'}) => {
                     </Link>
                     <span>
                         <a href="mailto:giannishorgos@gmail.com">
-                            <MdOutlineAlternateEmail />
+                            <MdOutlineAlternateEmail className='sc-icons'/>
                         </a>
                         <a href="https://www.linkedin.com/in/ioannis-s-horgos/" target='_blank'>
-                            <BsLinkedin />
+                            <BsLinkedin className='sc-icons'/>
                         </a>
                         <a href="https://github.com/giannishorgos" target='_blank'>
-                            <BsGithub />
+                            <BsGithub className='sc-icons'/>
                         </a>
                         <a href="https://stackoverflow.com/users/13791379/giannis-horgos" target='_blank'>
-                            <BsStackOverflow />
+                            <BsStackOverflow className='sc-icons'/>
                         </a>
                     </span>
                 </h2>
