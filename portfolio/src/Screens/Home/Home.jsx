@@ -24,7 +24,7 @@ const Home = () => {
             <div className='welcome-text'>
                 <h1>Hi, I'm Ioannis Horgos.</h1>
                 <h3>Software developer. Biker. Gym enthousiast.</h3>
-                <p>I'm passionate about technology and coding because I believe that every everyday problem holds the potential to inspire us as developers. The thrill of riding my supersport motorcycle fuels my love for adrenaline and the exhilaration of pushing boundaries. In the gym, I've learned that consistency is the key to success, teaching me valuable lessons about discipline and perseverance. Let's embark on this coding journey together, transforming challenges into opportunities and creating impactful solutions.</p>
+                <p>I'm passionate about technology and coding because I believe that every daily problem holds the potential to inspire us as developers. The thrill of riding my supersport motorcycle fuels my love for adrenaline and the exhilaration of pushing boundaries. In the gym, I've learned that consistency is the key to success, teaching me valuable lessons about discipline and perseverance. Let's embark on this coding journey together, transforming challenges into opportunities and creating impactful solutions.</p>
                 <div className='buttons'>
                     <HomeButtons onClick={redirectToProjectsScreen}/>
                     <HomeButtons primary={false} text='download cv'/>
