@@ -6,7 +6,7 @@
     color: whitesmoke;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 1%;
+    /* margin-top: 1%; */
     text-align: left;
     animation-name: fade;
     animation-duration: 1s;
@@ -58,9 +58,11 @@ h3 {
         align-items: flex-end;
         justify-content: center;
     }
+
+
   }
 
-@media (max-width: 660px) {
+@media (max-width: 960px) {
     .profile {
         display: none;
     }
